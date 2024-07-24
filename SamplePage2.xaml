@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="NavWinUi3App.SamplePage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NavWinUi3App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:fa="http://schemas.fontawesome.io/icons/"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--<ProgressRing IsActive="True" Background="LightGray"/>-->
+    
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="ImageGridView_ItemContainerStyle"
+            TargetType="GridViewItem"
+            >
+                <Setter Property="Background" Value="Gray"/>
+                <Setter Property="Margin" Value="8"/>
+            </Style>
+            <ItemsPanelTemplate x:Key="ImageGridView_ItemsPanelTemplate">
+                <ItemsWrapGrid Orientation="Horizontal"
+               HorizontalAlignment="Center"
+                             />
+            </ItemsPanelTemplate>
+            
+
+            <DataTemplate x:Key="ImageGridView_ItemTemplate"  x:DataType="local:ImageFileInfo" 
+                            >
+                <Grid Height="300"
+          Width="300"
+          Margin="8" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="ItemImage"
+              Source="/Assets/SampleImages/download.jpeg"
+               Stretch="Uniform" />
+
+
+                    <StackPanel Orientation="Vertical"
+                    Grid.Row="1">
+                        <TextBlock Text="{x:Bind ImageTitle}"
+                       HorizontalAlignment="Center"
+                       Style="{StaticResource SubtitleTextBlockStyle}" />
+                        <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                            <TextBlock Text="ImageFileType"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource CaptionTextBlockStyle}" />
+                            <TextBlock Text="{x:Bind ImageFileType}"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource CaptionTextBlockStyle}"
+                           Margin="8,0,0,0" />
+                        </StackPanel>
+
+                        <RatingControl Value="3" IsReadOnly="True"/>
+                    </StackPanel>
+                </Grid>
+            </DataTemplate>
+        </Grid.Resources>
+        <StackPanel>
+            <GridView>
+                <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="folderText" Width="500" Header="Folder Path" PlaceholderText="Path" Text="{x:Bind folderPath}"/>
+                    <Button AutomationProperties.Name="Pie" Width="50" Height="50" Click="Button_Click">
+                   <!--<Image Source="/Assets/Square150x150Logo.scale-200.png" />-->
+                        <!--<StackPanel Orientation="Horizontal">
+                            <fa:FontAwesome Icon="Folder" Margin="0,0,5,0"/>
+                            <TextBlock>My Folders</TextBlock>
+                        </StackPanel>-->
+                      
+                    </Button>
+                </StackPanel>
+            </GridView>
+            
+
+            <GridView  x:Name="ImageGridView"
+                ItemTemplate="{StaticResource ImageGridView_ItemTemplate}"
+                  ItemsPanel="{StaticResource ImageGridView_ItemsPanelTemplate}"
+                 ContainerContentChanging="ImageGridView_ContainerContentChanging"
+                  IsItemClickEnabled="True"
+                  ItemClick="ImageGridView_ItemClick"
+                  SelectionChanged="ImageGridView_SelectionChanged"
+                  
+                HorizontalAlignment="Center"
+                
+                ItemsSource="{x:Bind Images}"
+                  >
+            
+            </GridView>
+        </StackPanel>
+    </Grid>
+    
+    <!--<Button Content="Empty cart">
+        <Button.Flyout>
+            <Flyout>
+                <StackPanel>
+                    <TextBlock Style="{ThemeResource BaseTextBlockStyle}" Text="All items will be removed. Do you want to continue?" Margin="0,0,0,12" />
+                    <Button Click="Button_Click" Content="Yes, empty my cart" />
+                </StackPanel>
+            </Flyout>
+        </Button.Flyout>
+    </Button>-->
+</Page>

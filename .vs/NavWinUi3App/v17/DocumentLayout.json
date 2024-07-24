@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\vsproject\\NavWinUi3App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|e:\\vsproject\\navwinui3app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|e:\\vsproject\\navwinui3app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|e:\\vsproject\\navwinui3app\\mainpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|solutionrelative:mainpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|e:\\vsproject\\navwinui3app\\samplepage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|solutionrelative:samplepage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|e:\\vsproject\\navwinui3app\\samplepage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|solutionrelative:samplepage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|e:\\vsproject\\navwinui3app\\mainpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2D0C444-574D-4DFA-A466-93913B02E936}|NavWinUi3App.csproj|solutionrelative:mainpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage1.xaml.cs",
+              "DocumentMoniker": "E:\\vsproject\\NavWinUi3App\\MainPage1.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage1.xaml.cs",
+              "ToolTip": "E:\\vsproject\\NavWinUi3App\\MainPage1.xaml.cs",
+              "RelativeToolTip": "MainPage1.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA5wBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:03:37.617Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a6830831-ecbf-434e-a60f-40a16e714429}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\vsproject\\NavWinUi3App\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\vsproject\\NavWinUi3App\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T07:39:29.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\vsproject\\NavWinUi3App\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\vsproject\\NavWinUi3App\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T03:44:51.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SamplePage2.xaml.cs",
+              "DocumentMoniker": "E:\\vsproject\\NavWinUi3App\\SamplePage2.xaml.cs",
+              "RelativeDocumentMoniker": "SamplePage2.xaml.cs",
+              "ToolTip": "E:\\vsproject\\NavWinUi3App\\SamplePage2.xaml.cs",
+              "RelativeToolTip": "SamplePage2.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAIA1wCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:41:12.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage1.xaml",
+              "DocumentMoniker": "E:\\vsproject\\NavWinUi3App\\MainPage1.xaml",
+              "RelativeDocumentMoniker": "MainPage1.xaml",
+              "ToolTip": "E:\\vsproject\\NavWinUi3App\\MainPage1.xaml",
+              "RelativeToolTip": "MainPage1.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T03:39:51.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SamplePage2.xaml",
+              "DocumentMoniker": "E:\\vsproject\\NavWinUi3App\\SamplePage2.xaml",
+              "RelativeDocumentMoniker": "SamplePage2.xaml",
+              "ToolTip": "E:\\vsproject\\NavWinUi3App\\SamplePage2.xaml",
+              "RelativeToolTip": "SamplePage2.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T06:34:06.091Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+E:\vsproject\NavWinUi3App\NavWinUi3App.csproj;arm64

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="NavWinUi3App.MainPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NavWinUi3App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--<Grid>
+       <Label x:Name="label1" Text="SamplePage1" />
+
+    </Grid>-->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="label"
+            Text="Main Page"
+                   Margin="100"
+                   FontSize="50"
+                   HorizontalAlignment="Center" />
+        <Button Content="Go to Second Page"
+                Click="Button_Click"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Center"
+                Margin="100" />
+    </Grid>
+</Page>

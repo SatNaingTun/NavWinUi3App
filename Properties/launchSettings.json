@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NavWinUi3App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NavWinUi3App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
